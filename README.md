@@ -22,6 +22,8 @@ Next, I downloaded and installed the Python executable installer from the Python
 <img width="862" alt="Screenshot 2024-12-19 at 16 17 26" src="https://github.com/user-attachments/assets/8ceffda4-52d8-4d50-a4f3-5f886ad3387b" />
 
 
-Next, I created an active response script "remove-threat.py" to remove any malicious  files from the Windows endpoint. when I tried running the script I encountered an error on line 108
+Next, I created an active response script "remove-threat.py" to remove any malicious  files from the Windows endpoint. when I tried turning the script to an executable the script I encountered an error on line 108, it was an indentation error (wasn't aligned correctly) . After fixing that, the code ran properly.
 
 <img width="1020" alt="Screenshot 2024-12-19 at 17 00 07" src="https://github.com/user-attachments/assets/5e323a70-f439-4574-946c-52262aef1ca3" />
+
+<img width="857" alt="Screenshot 2024-12-20 at 04 59 47" src="https://github.com/user-attachments/assets/87fc6f4e-3f25-48c3-be96-6484871392bf" />
