@@ -10,7 +10,7 @@ First, I had to enable the Virustotal module on the Wazuh manager cause by defau
 <img width="1674" alt="Screenshot 2024-12-19 at 07 52 21" src="https://github.com/user-attachments/assets/17af8662-0fe1-45e2-8c6d-7925c791d436" />
 
 
-Next, I had to make some changes to the "ossec.conf" file on Windows 10 (where the wazuh agent is installed). I ensured that "syscheck" was enabled and added a new line of code to ensure that the downloads directory was been monitored (This configuration allows the Wazuh agent to track changes in the specified directory effectively). After that, I saved the config and restarted the wazuh service
+Next, I had to make some changes to the "ossec.conf" file on Windows 10 (where the wazuh agent is installed). I enabled " syscheck" and added a new line of code to ensure that the downloads directory was monitored (This configuration allows the Wazuh agent to track changes in the specified directory effectively). After that, I saved the config and restarted the wazuh service
 
 <img width="1022" alt="Screenshot 2024-12-19 at 15 40 40" src="https://github.com/user-attachments/assets/4be8fcde-c805-4475-b75a-bebb94dbb18d" />
 
@@ -22,5 +22,6 @@ Next, I downloaded and installed the Python executable installer from the Python
 <img width="862" alt="Screenshot 2024-12-19 at 16 17 26" src="https://github.com/user-attachments/assets/8ceffda4-52d8-4d50-a4f3-5f886ad3387b" />
 
 
-Next, I created an active response script "remove-threat.py" to remove any malicious  files from the Windows endpoint. when i 
+Next, I created an active response script "remove-threat.py" to remove any malicious  files from the Windows endpoint. when I tried running the script I encountered an error on line 108
 
+<img width="1020" alt="Screenshot 2024-12-19 at 17 00 07" src="https://github.com/user-attachments/assets/5e323a70-f439-4574-946c-52262aef1ca3" />
