@@ -20,3 +20,7 @@ Next, I had to make some changes to the "ossec.conf" file on Windows 10 (where t
 
 Next, I downloaded and installed the Python executable installer from the Python official website.
 <img width="862" alt="Screenshot 2024-12-19 at 16 17 26" src="https://github.com/user-attachments/assets/8ceffda4-52d8-4d50-a4f3-5f886ad3387b" />
+
+
+Next, I created an active response script "remove-threat.py" to remove any malicious  files from the Windows endpoint. when i 
+
