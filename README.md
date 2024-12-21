@@ -40,3 +40,9 @@ To enable VirusTotal integration, I edited the /var/ossec/etc/ossec.conf file on
 
 <img width="1680" alt="Screenshot 2024-12-21 at 09 58 21" src="https://github.com/user-attachments/assets/ef4202ef-1533-4a54-9222-35ac9b8dc3a3" />
 
+<br>
+<br>
+<br>
+<br>
+I updated the "/var/ossec/etc/rules/local_rules.xml" file on the Wazuh server by adding rules to alert on Active Response results. This ensures I get notified whenever the system takes automated actions.
+<img width="1680" alt="Screenshot 2024-12-21 at 10 26 07" src="https://github.com/user-attachments/assets/ddad7ee5-7d35-4339-bb82-8c91cd813798" />
