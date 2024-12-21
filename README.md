@@ -32,11 +32,11 @@ Next, I created an active response script "remove-threat.py" to remove any malic
 
 <br>
 <br>
-
+<br>
+<br>
 To enable VirusTotal integration, I edited the /var/ossec/etc/ossec.conf file on the Wazuh server. I added the necessary configuration and replaced <YOUR_VIRUS_TOTAL_API_KEY> with my VirusTotal API key. This setup ensures that a VirusTotal query is triggered automatically whenever any rules in the FIM "syscheck" group are activated, enhancing the detection capabilities of the system.
 
-<br>
-<br>
+
 
 <img width="1680" alt="Screenshot 2024-12-21 at 09 58 21" src="https://github.com/user-attachments/assets/ef4202ef-1533-4a54-9222-35ac9b8dc3a3" />
 
