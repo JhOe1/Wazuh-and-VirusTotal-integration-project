@@ -22,7 +22,7 @@ Next, I downloaded and installed the Python executable installer from the Python
 <img width="862" alt="Screenshot 2024-12-19 at 16 17 26" src="https://github.com/user-attachments/assets/8ceffda4-52d8-4d50-a4f3-5f886ad3387b" />
 
 
-Next, I created an active response script "remove-threat.py" to remove any malicious  files from the Windows endpoint. when I tried turning the script to an executable the script I encountered an error on line 108, it was an indentation error (wasn't aligned correctly). After fixing that, the code ran properly. Next, I restarted the service and checked to ensure that it was still running.
+Next, I created an active response script "remove-threat.py" to remove any malicious  files from the Windows endpoint. when I tried turning the script to an executable the script I encountered an error on line 108, it was an indentation error (it wasn't aligned correctly). After fixing that, the code ran properly. Then I moved the executable to the "C:\Program Files (x86)\ossec-agent\active-response\bin" directory. Next, I restarted the service and checked to ensure it was still running.
 
 <img width="1020" alt="Screenshot 2024-12-19 at 17 00 07" src="https://github.com/user-attachments/assets/5e323a70-f439-4574-946c-52262aef1ca3" />
 
@@ -30,6 +30,6 @@ Next, I created an active response script "remove-threat.py" to remove any malic
 
 <img width="1023" alt="Screenshot 2024-12-20 at 05 09 16" src="https://github.com/user-attachments/assets/bbe7f2b5-ce32-4ef2-8077-b52a46e2cc3d" />
 
-Next, I performed the following steps on the Wazuh server to configure the VirusTotal integration. I added a few lines of code to the "ossec.conf" config file on the wazuh server
-
+I proceeded with the necessary steps on the Wazuh server to set up the VirusTotal integration. I added a few lines of code to the "ossec.conf" config file on the wazuh server
+<img width="1680" alt="Screenshot 2024-12-21 at 09 58 21" src="https://github.com/user-attachments/assets/ef4202ef-1533-4a54-9222-35ac9b8dc3a3" />
 
